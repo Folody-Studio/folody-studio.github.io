@@ -36,12 +36,12 @@ function updateidea() {
     alert("This browser does not support desktop notification");
   }
   else if (Notification.permission === "granted") {
-    var notification = new Notification("updates? https://repl.it/talk/share/Minecraft/16676 I am duck1321912");
+    var notification = new Notification("Hello World!Gửi bởi Folody Studio");
   }
   else if (Notification.permission !== "denied") {
     Notification.requestPermission().then(function (permission) {
       if (permission === "granted") {
-        var notification = new Notification("Mời và trải nghiệm folody bot : https://folody.tk");
+        var notification = new Notification("Mời và trải nghiệm folody bot : https://folody.xyz");
       }
     });
   }
